@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopNow</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- swiper css link  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- cusom css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="checkout.css">
+    
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/63426a5237898912e96d9e89/1getmul3u';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="index.html" class="logo"> <i class="fas fa-store"></i> shopNow </a>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <a href="login.html" class="fas fa-user"></a>
+        <a href="products.html" class="fas fa-heart"></a>
+        <a href="cart.html" class="fas fa-shopping-cart"></a>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- side-bar section starts -->
+
+<div class="side-bar">
+
+    <div id="close-side-bar" class="fas fa-times"></div>
+
+    <div class="user">
+        <img src="Home.jpg" alt="">
+        <h3>Dara Swapna</h3>
+        <a href="#">log out</a>
+    </div>
+
+    <nav class="navbar">
+        <a href="index.html"> <i class="fas fa-angle-right"></i> home </a>
+        <a href="about.html"> <i class="fas fa-angle-right"></i> about </a>
+        <a href="products.html"> <i class="fas fa-angle-right"></i> products </a>
+        <a href="contact.html"> <i class="fas fa-angle-right"></i> contact </a>
+        <a href="login.html"> <i class="fas fa-angle-right"></i> login </a>
+        <a href="register.html"> <i class="fas fa-angle-right"></i> register </a>
+        <a href="cart.html"> <i class="fas fa-angle-right"></i> cart </a>
+        <a href="store.html"><i class="fas fa-angle-right"></i> store </a>
+    </nav>
+
+</div>
+
+<!-- side-bar section ends -->
+<br>
+<div id='form-wrapper'>
+    <form>
+        <div id='header' class='text-center mb-3'>
+            <h1>checkout Form</h1>
+        </div>
+        <h5>Billing Info</h4>
+    
+            <hr>
+    
+            <div class='form-group mb-1'>
+            <label class='mb-1' for='firstName'>First Name</label>
+            <input class='form-control mb-1' id='firstName' type='text' placeholder=''>
+            </div>
+    
+            <div class='form-group mb-1'>
+            <label class='mb-1' for='lastName'>Last Name</label>
+            <input id='lastName' type='text' class='form-control' placeholder=''>
+            </div>
+    
+            <div class='form-group mb-1'>
+            <label class='mb-1'>Street</label>
+            <input class='form-control' type='text' id='street1' placeholder=''>
+            </div>
+    
+            <div class='form-group mb-1'>
+            <label class='mb-1' for='city'>City</label>
+            <input type='text' id='city' class='form-control' placeholder=''>
+            </div>
+    
+            <div class='form-row mb-2'>
+            <div class='col-md-8'>
+                <label class='mb-1' for='state'>State</label>
+                <input id='state' class='form-control' placeholder=''>
+            </div>
+            <div class='col-md-4'>
+    
+                <label class='mb-1' for='zip'>Zip</label>
+                <input type='text' id='zip' class='form-control' placeholder=''>
+            </div>
+            </div>
+    
+            <h5>Card Info</h4>
+    
+            <hr class='mb-1'>
+    
+            <div class='form-group mb-1'>
+                <label class='mb-1' for='nameOnCard'>Name on card</label>
+                <input class='form-control' id='nameOnCard' placeholder=''>
+            </div>
+    
+            <div class='form-group mb-1'>
+                <label class='mb-1' for='cardNum'>Card number</label>
+                <input class='form-control' id='cardNum' placeholder="">
+            </div>
+    
+            <div class='form-row mb-1'>
+                <div class='col'>
+                <label class='mb-0' for='expMonth'>Expiration Month</label>
+                <select class='form-control' id='expMonth'>
+                    <option value='01'>Jan</option>
+                    <option value='02'>Feb</option>
+                    <option value='03'>March</option>
+                    <option value='04'>April</option>
+                    <option value='05'>May</option>
+                    <option value='06'>June</option>
+                    <option value='07'>July</option>
+                    <option value='08'>Aug</option>
+                    <option value='09'>Sept</option>
+                    <option value='10'>Oct</option>
+                    <option value='11'>Nov</option>
+                    <option value='12'>Dec</option>
+                </select>
+                </div>
+                <div class='col'>
+                <label class='mb-0' for='expYear'>Exp Year</label>
+                <select class='form-control' id='expYear'>
+                    <option value='2023'>2023</option>
+                    <option value='2023'>2022</option>
+                    <option value='2023'>2021</option>
+                    <option value='2023'>2020</option>
+                    <option value='2023'>2019</option>
+                </select>
+                </div>
+                <div class='col'>
+                <label class='mb-0' for='ccv'>CVV</label>
+                <input placeholder='* * * *' class='form-control' id='ccv'>
+                </div>
+            <!--<button class='btn btn-primary mt-4' type='submit'></i>Submit Payment</button>-->
+            <a href="confirmation.html" class="btn btn-primary mt-4" type="submit">Submit Payment</a>
+            </div>
+        </form>
+  </div>
+  <br>
+
+<!-- footer section starts  -->
+
+<section class="quick-links">
+
+    <a href="index.html" class="logo"> <i class="fas fa-store"></i> shopNow </a>
+
+    <div class="links">
+        <a href="index.html"> home </a>
+        <a href="about.html"> about </a>
+        <a href="products.html"> products </a>
+        <a href="contact.html"> contact </a>
+        <a href="login.html"> login </a>
+        <a href="register.html"> register </a>
+        <a href="cart.html"> cart </a>
+        <a href="store.html"> store </a>
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+    </div>
+
+</section>
+
+<section class="credit">
+
+    <p> created by <span>Dara Swapna Sree</span> | all rights reserved! </p>
+
+    <img src="card_img.png" alt="">
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+<!-- swiper js link      -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>

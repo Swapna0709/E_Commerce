@@ -1,0 +1,49 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css");
+body {
+    background-color: white;
+  }
+  
+  #form-wrapper {
+    background-color: white;
+    margin: auto;
+    width: 600px;
+    height: auto;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+  }
+  
+  #header {
+    background-color: rgb(0, 0, 225);
+    border-radius: 10px 10px 0px 0px;
+    border: lightgray solid 1px;
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  h5 {
+    color: blue;
+  }
+  
+  i {
+    color: black;
+  }
+  
+  button i {
+    color: white;
+  }
+  
+  hr {
+    border-color: blue;
+  }
+  
+  button {
+    background-color: rgb(0, 0, 225);
+  }
+  
+  select {
+    display: inline;
+  }
